@@ -34,10 +34,15 @@ Material:
     m_Ints: []
     m_Floats:
     - _FPower: 5
-    - _FresnelPower: 5
+    - _FresnelPower: 2
     - _FresnelScale: 5
+    - _FresnelValue: 1
+    - _LerpAlpha: 0.94
+    - _LerpTime: 3
+    - _LerpValue: 0.2
     - _SinOssilation: 0.5
     - __dirty: 0
-    m_Colors: []
+    m_Colors:
+    - _Color0: {r: 0, g: 1, b: 0.8232038, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
