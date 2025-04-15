@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: f9bd85ea2601b824c87556c13e852933, type: 3}
+        m_Texture: {fileID: 2800000, guid: 64e7766099ad46747a07014e44d0aea1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -33,16 +33,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _ASEOutlineWidth: 9
     - _FPower: 5
-    - _FresnelPower: 2
+    - _FresnelPower: 1
     - _FresnelScale: 5
     - _FresnelValue: 1
     - _LerpAlpha: 0.94
     - _LerpTime: 3
     - _LerpValue: 0.2
+    - _OutlineIntensity: 0
     - _SinOssilation: 0.5
+    - _XRayBias: 9
+    - _XRayIntensity: 5
+    - _XRayPower: 0.94
+    - _XRayScale: 0.94
     - __dirty: 0
     m_Colors:
     - _Color0: {r: 0, g: 1, b: 0.8232038, a: 0}
+    - _XRayColor: {r: 0, g: 1, b: 0.8460288, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
