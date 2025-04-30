@@ -73,14 +73,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Bias: 1
+    - _Bias: 0.37947497
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DistortionWeight: 0.18
+    - _DistortionWeight: 0
     - _DstBlend: 0
     - _EdgeLength: 20.1
-    - _FlowmapPannerSpeed: 0.31
+    - _FlowmapPannerSpeed: 0
     - _FlowmapTilling: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -89,12 +89,12 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Power: 1.2
-    - _Scale: 0.64
+    - _Power: 0.29815948
+    - _Scale: 0.27356115
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TimeScale: 0.21
+    - _TimeScale: 0
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
@@ -102,7 +102,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FadeColor: {r: 0, g: 1, b: 0.47320867, a: 0}
-    - _FlowmapDirection: {r: 1, g: 1, b: 0, a: 0}
+    - _FlowmapDirection: {r: 0, g: 1, b: 0, a: 0}
     - _HeightMultiplier: {r: 0, g: 3.35, b: 0, a: 0}
     - _WaterColor: {r: 0.6273585, g: 1, b: 0.95409256, a: 0}
   m_BuildTextureStacks: []
