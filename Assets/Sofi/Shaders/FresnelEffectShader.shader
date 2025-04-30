@@ -55,7 +55,7 @@ Shader "FresnelEffect"
 }
 /*ASEBEGIN
 Version=18900
-244.8;73.6;634.8;470.2;1230.354;-89.06429;1.29446;True;False
+218.4;73.6;322.8;442.2;1121.882;-31.05525;1.3;False;False
 Node;AmplifyShaderEditor.RangedFloatNode;55;-1434.128,168.6709;Inherit;False;Property;_LerpTime;LerpTime;4;0;Create;True;0;0;0;False;0;False;3;3;0;3;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleTimeNode;53;-1124.857,169.564;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SinOpNode;54;-942.2547,170.6708;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
@@ -81,4 +81,4 @@ WireConnection;50;0;49;0
 WireConnection;0;2;50;0
 WireConnection;0;9;47;0
 ASEEND*/
-//CHKSM=611119AE1BFA7F6E2DF610A867139C12B50DA748
+//CHKSM=3B1CAED0942FA6C4DB4DAD71DD47882BD41F7A91
