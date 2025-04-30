@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ShaderUIController : MonoBehaviour
+public class ToonWaterController : MonoBehaviour
 {
     public Material targetMaterial;
 
