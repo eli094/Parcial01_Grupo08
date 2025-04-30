@@ -2738,7 +2738,7 @@ GameObject:
   - component: {fileID: 331701229}
   - component: {fileID: 331701228}
   m_Layer: 0
-  m_Name: Toon Water
+  m_Name: Toon Waterfall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12079,6 +12079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1807f81f49de924ebda382b97bebc93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetObject: {fileID: 331701227}
   targetMaterial: {fileID: 2100000, guid: facd2e0b97e645b4088e50e4ed66dc88, type: 2}
   timeScaleSlider: {fileID: 770224616}
   heightMultiplierInput: {fileID: 1871647705}
@@ -12992,6 +12993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1807f81f49de924ebda382b97bebc93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetObject: {fileID: 2125243976}
   targetMaterial: {fileID: 2100000, guid: 2491d9adab2d54c4ab6dbab680dd477e, type: 2}
   timeScaleSlider: {fileID: 1368151783}
   heightMultiplierInput: {fileID: 867589203}
@@ -15491,7 +15493,7 @@ GameObject:
   - component: {fileID: 2125243978}
   - component: {fileID: 2125243977}
   m_Layer: 0
-  m_Name: ToonWater
+  m_Name: Toon Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

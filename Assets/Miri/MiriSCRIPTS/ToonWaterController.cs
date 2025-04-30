@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class ToonWaterController : MonoBehaviour
 {
+    [Header("Target GameObject with Renderer")]
+    public GameObject targetObject;
     public Material targetMaterial;
 
     [Header("Time properties")]
@@ -29,11 +31,30 @@ public class ToonWaterController : MonoBehaviour
     public Slider scaleSlider;
     public Slider powerSlider;
 
+
+    private void Awake()
+    {
+        if (targetObject == null)
+        {
+            Debug.LogError("ToonWaterController: No target GameObject assigned!");
+            return;
+        }
+
+        Renderer renderer = targetObject.GetComponent<Renderer>();
+        if (renderer == null)
+        {
+            Debug.LogError("ToonWaterController: Target GameObject has no Renderer!");
+            return;
+        }
+
+        targetMaterial = new Material(renderer.sharedMaterial);
+        renderer.material = targetMaterial;
+    }
     private void Start()
     {
         if (targetMaterial == null)
         {
-            Debug.LogError("ShaderUIBinder: No material assigned!");
+            Debug.LogError("ToonWaterController: No material assigned!");
             return;
         }
 
