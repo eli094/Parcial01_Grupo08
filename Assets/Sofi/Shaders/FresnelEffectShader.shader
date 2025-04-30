@@ -5,10 +5,10 @@ Shader "FresnelEffect"
 	Properties
 	{
 		_Color0("Color 0", Color) = (0,1,0.9294465,0)
-		_LerpValue("LerpValue", Float) = 0.94
-		_FresnelPower("FresnelPower", Float) = 1
-		_LerpTime("LerpTime", Float) = 3
-		_LerpAlpha("LerpAlpha", Float) = 0.94
+		_LerpValue("LerpValue", Range( 0 , 1)) = 0.94
+		_FresnelPower("FresnelPower", Range( 0 , 1)) = 1
+		_LerpTime("LerpTime", Range( 0 , 3)) = 3
+		_LerpAlpha("LerpAlpha", Range( 0 , 1)) = 0.94
 		[HideInInspector] __dirty( "", Int ) = 1
 	}
 
@@ -55,14 +55,14 @@ Shader "FresnelEffect"
 }
 /*ASEBEGIN
 Version=18900
-208;73.6;754.8;519;1344.86;338.5503;2.407862;False;False
-Node;AmplifyShaderEditor.RangedFloatNode;55;-1295.362,171.7776;Inherit;False;Property;_LerpTime;LerpTime;4;0;Create;True;0;0;0;False;0;False;3;3;0;0;0;1;FLOAT;0
+244.8;73.6;634.8;470.2;1230.354;-89.06429;1.29446;True;False
+Node;AmplifyShaderEditor.RangedFloatNode;55;-1434.128,168.6709;Inherit;False;Property;_LerpTime;LerpTime;4;0;Create;True;0;0;0;False;0;False;3;3;0;3;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleTimeNode;53;-1124.857,169.564;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;46;-985.3983,258.3166;Inherit;False;Property;_LerpValue;LerpValue;1;0;Create;True;0;0;0;False;0;False;0.94;0.2;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SinOpNode;54;-942.2547,170.6708;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;56;-986.3892,343.331;Inherit;False;Property;_LerpAlpha;LerpAlpha;5;0;Create;True;0;0;0;False;0;False;0.94;0;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;46;-1089.991,253.1387;Inherit;False;Property;_LerpValue;LerpValue;1;0;Create;True;0;0;0;False;0;False;0.94;0.2;0;1;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;56;-1075.448,347.4733;Inherit;False;Property;_LerpAlpha;LerpAlpha;5;0;Create;True;0;0;0;False;0;False;0.94;0;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.LerpOp;45;-670.4987,152.5896;Inherit;False;3;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;51;-682.9572,315.8494;Inherit;False;Property;_FresnelPower;FresnelPower;3;0;Create;True;0;0;0;False;0;False;1;0;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;51;-783.4072,431.8327;Inherit;False;Property;_FresnelPower;FresnelPower;3;0;Create;True;0;0;0;False;0;False;1;0;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.ColorNode;48;-323.2307,-42.1348;Inherit;False;Property;_Color0;Color 0;0;0;Create;True;0;0;0;False;0;False;0,1,0.9294465,0;0,1,0.9294465,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.FresnelNode;47;-403.9339,181.7859;Inherit;True;Standard;WorldNormal;ViewDir;False;False;5;0;FLOAT3;0,0,1;False;4;FLOAT3;0,0,0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;5;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;49;-47.16621,69.00171;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;1;COLOR;0
@@ -81,4 +81,4 @@ WireConnection;50;0;49;0
 WireConnection;0;2;50;0
 WireConnection;0;9;47;0
 ASEEND*/
-//CHKSM=ABF0BD13972C6C44828926A85E660DF3C8B2281A
+//CHKSM=611119AE1BFA7F6E2DF610A867139C12B50DA748
