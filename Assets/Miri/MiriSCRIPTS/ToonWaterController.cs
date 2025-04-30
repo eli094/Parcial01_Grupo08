@@ -29,7 +29,7 @@ public class ToonWaterController : MonoBehaviour
     public Slider scaleSlider;
     public Slider powerSlider;
 
-    void Start()
+    private void Start()
     {
         if (targetMaterial == null)
         {
@@ -69,7 +69,7 @@ public class ToonWaterController : MonoBehaviour
             powerSlider.onValueChanged.AddListener(val => targetMaterial.SetFloat("_Power", val));
     }
 
-    void OnHeightMultiplierChanged(string input)
+    private void OnHeightMultiplierChanged(string input)
     {
         if (targetMaterial == null) return;
         if (float.TryParse(input, out float val))
@@ -80,7 +80,7 @@ public class ToonWaterController : MonoBehaviour
         }
     }
 
-    void UpdateFlowDirection()
+    private void UpdateFlowDirection()
     {
         if (targetMaterial == null || flowDirX == null || flowDirY == null || flowDirZ == null)
             return;

@@ -77,7 +77,7 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DistortionWeight: 0.8183761
+    - _DistortionWeight: 0.120782755
     - _DstBlend: 0
     - _FlowmapPannerSpeed: 0.4950396
     - _FlowmapTilling: 1
