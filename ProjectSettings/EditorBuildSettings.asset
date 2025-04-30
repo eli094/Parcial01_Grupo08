@@ -4,5 +4,24 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Miri/ToolWaterfall.unity
+    guid: d72abc4b63a317d41b1c879d4257ec38
+  - enabled: 1
+    path: Assets/Scenes/Sofi/FresnelEffect.unity
+    guid: 87b9a1952812f7f4e9843809850cfe8a
+  - enabled: 1
+    path: Assets/Scenes/Anto/HeightMap.unity
+    guid: a7227a2993749e149adbcef4c9477463
+  - enabled: 1
+    path: Assets/Scenes/Anto/ScreenWorldSpaceUV.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Soly/DissolveEffect.unity
+    guid: e66641814ee6b564ead1c3f3327476c0
+  - enabled: 1
+    path: Assets/Scenes/Soly/VertexPaint.unity
+    guid: 0e7c8977711fbcb4ba6e016b9265535b
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
