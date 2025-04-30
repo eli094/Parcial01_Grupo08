@@ -52,6 +52,6 @@ public class FresnelEffectController : MonoBehaviour
             lerpTimeSlider.onValueChanged.AddListener(val => targetMaterial.SetFloat("_LerpTime", val)); 
 
         if (lerpAlphaSlider != null)
-            lerpTimeSlider.onValueChanged.AddListener(val => targetMaterial.SetFloat("_LerpAlpha", val));
+            lerpAlphaSlider.onValueChanged.AddListener(val => targetMaterial.SetFloat("_LerpAlpha", val));
     }
 }
