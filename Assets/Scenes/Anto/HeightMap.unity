@@ -1612,9 +1612,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Fresnel
-
-'
+  m_text: Height Map
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6906325da09f17743aad2991b7a13f39, type: 2}
   m_sharedMaterial: {fileID: -3378669817924792446, guid: 6906325da09f17743aad2991b7a13f39, type: 2}
@@ -2546,9 +2544,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Fresnel Effect
-
-'
+  m_text: Height Map
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6906325da09f17743aad2991b7a13f39, type: 2}
   m_sharedMaterial: {fileID: -3378669817924792446, guid: 6906325da09f17743aad2991b7a13f39, type: 2}
@@ -3095,7 +3091,7 @@ GameObject:
   - component: {fileID: 1484282157}
   - component: {fileID: 1484282156}
   m_Layer: 5
-  m_Name: Fresnel
+  m_Name: Height Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3974,7 +3970,7 @@ GameObject:
   - component: {fileID: 1996690145}
   - component: {fileID: 1996690144}
   m_Layer: 5
-  m_Name: Fresnel Settings
+  m_Name: HeightMap Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
