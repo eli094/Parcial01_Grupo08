@@ -23,5 +23,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Soly/VertexPaint.unity
     guid: 9a74a91086d8839428b464c39d45b7b2
+  - enabled: 1
+    path: Assets/Scenes/Belu/ParallaxOcclusionMapping.unity
+    guid: e00e6f90ab8233e46a41c5e33917c642
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
