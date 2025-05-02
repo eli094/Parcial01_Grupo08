@@ -835,7 +835,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "To go back to main menu, press B\n\nMembers: \nAntonio Maid, Sof\xEDa
+  m_text: "To go back to the Main Menu, press B\n\nMembers: \nAntonio Maid, Sof\xEDa
     Vard\xE9 Tus\xE9, Maria Belen Santana, Solange Bordeta Norma, Mariano Gabriel
     Blanco C\xE1ceres"
   m_isRightToLeft: 0
