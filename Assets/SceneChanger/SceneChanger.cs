@@ -36,7 +36,7 @@ public class SceneChanger : MonoBehaviour
             SceneManager.LoadScene("MainMenu");
         }
 
-        if (Input.GetKeyDown(KeyCode.B))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
         }
