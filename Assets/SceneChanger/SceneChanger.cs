@@ -8,6 +8,10 @@ public class SceneChanger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             int nextScene = SceneManager.GetActiveScene().buildIndex + 1;
+
+            if (nextScene == 0)
+                nextScene = 1;
+
             if (nextScene < SceneManager.sceneCountInBuildSettings)
             {
                 SceneManager.LoadScene(nextScene);
@@ -17,11 +21,32 @@ public class SceneChanger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             int prevScene = SceneManager.GetActiveScene().buildIndex - 1;
+
+            if (prevScene == 0)
+                prevScene = 1;
+
             if (prevScene >= 0)
             {
                 SceneManager.LoadScene(prevScene);
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            Application.Quit();
+        }
     }
+
+    public void ChangeScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
+
 }
 

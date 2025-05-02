@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Miri/ToolWaterfall.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: 56c4117aa12505f4cae1799385159828
+  - enabled: 1
+    path: Assets/Scenes/Miri/ToonWaterfall.unity
     guid: d72abc4b63a317d41b1c879d4257ec38
   - enabled: 1
     path: Assets/Scenes/Sofi/FresnelEffect.unity
